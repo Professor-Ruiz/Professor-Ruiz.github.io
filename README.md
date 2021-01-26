@@ -1,1 +1,1 @@
-# RuizTheRuler.github.io
+cs1030 web page project
