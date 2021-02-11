@@ -1,45 +1,54 @@
-<html>
-	<head>
-		<title>I love T27!</title>
-
-		<style>
-
-		body {background-color: #cc0099;}
-		img {opacity: 0.7;}
-		img:hover {opacity: 1.0;}
-		h1 {color: #ffccf3;}
-		p {font-family: "Lucida Console", "Courier New", monospace;}
-
-		</style>
-
-	</head>
-
-	<body>
-		<h1>T27 tacos are the best!!</h1>
-		<p> <a href='https://www.taqueria27.com/'>Check out their menu...</a></p>
-		<p><img src='t27-tacos.jpg' width='40%'></img></p>
-		<p>My faves: 
-			<ul>	
-				<li>pear taco</li>
-				<li>churro donuts</li>
-				<li>F.O.D. Taco</li>
-			</ul>
-		</p>
-		<p><button onclick='alert("I love T27!!");'>Wanna know a secret?</button></p>
-
-		<!-- Note to students below: -->
-
-		<div style = 'background-color: white; position:absolute; bottom:30px; width:100%; padding: 50px;'>
-		<p>Students</p>
-		<p>This simple page meets all requirements for the web page assignment.</p>
-		<p>Want to see the code? 
-			<ul>
-				<li>Right-click your mouse, and select "Inspect", or</li>
-				<li>Look at my <a href='https://github.com/Professor-Ruiz/Professor-Ruiz.github.io/blob/main/index.html'> index.html file on github</a></li>
-			</ul>
-		</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="canonical" href="https://html5-templates.com/" />
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="script.js"></script>	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Professor Ruiz</title>
+</head>
+<body>
+	<div id="desktop">
+		<div class="window" data-title="Snakey snakey">
+			<p><a href='https://github.com/Professor-Ruiz/snakey-snakey' target="_blank">Wanna check out the game repo?</a></p>
+			<iframe src='https://professor-ruiz.github.io/snakey-snakey/' width='100%' height='100%'></iframe>
+		</div>
+		<div class="window" data-title="Yeti">
+			<p>Yeti is my doggo! He's a Mastiff, and almost double my size!</p>
+			<p><img src='me-and-yeti.jpg'></img>
+			<img src='yeti.jpeg'></img></p>
+		</div>
+		<div class="window closed" data-title="Links">
+			<p><a href='https://github.com/RuizTheRuler' target="_blank">My GitHub Profile</a></p>
+			<p><a href='https://www.youtube.com/channel/UCQZiIVFP2UDcNJMDF4TYS1w/' target="_blank">My first YouTube Channel</a></p>
+			<p><a href='https://www.youtube.com/channel/UCuThl3hvVHmBCgU247350aw' target="_blank">My second YouTube Channel</a></p>
+			<p><a href='https://www.facebook.com/bianca.k.burton' target="_blank">My Facebook Page</a></p>
+		</div>
+		<div class="window" data-title="Error">
+			<h1>Hi there!</h1>
+			<hr />
+			<p>The page you're trying to open is either private or doesn't exist.</p>
+			<hr />
+			<p><strong>Stay awhile and play a game!</strong></p>
+			<p>Let's party like it's 1999...</p>
+		</div>
+		
+		<div id="taskbar">		
+		</div>
+		
+		<div id="icons">
+			<a class="openWindow" data-id="3">Error</a>
+			<a class="openWindow" data-id="0">Snakey snakey</a>
+			<a class="openWindow" data-id="1">Yeti</a>
+			<a class="openWindow" data-id="2">Links</a>
 		</div>
 
-	</body>
+	</div>
+</body>
 
 </html>
